@@ -1,4 +1,4 @@
-# nichosi
+# First world nichosi jQuery plugin
 Add some nichoses in our boring world
 
 #Show me nichosi at now!
