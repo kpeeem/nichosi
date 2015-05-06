@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nichosi proof-of-concept</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="nichosi.css">
+    <script src="nichosi.js"></script>
+
+</head>
+<body>
+
+<div class="desr">click with alt key</div>
+
+<script>
+
+    $("body").nichosi();
+</script>
+
+
+<style>
+        /*    body{
+        width:100vw;
+        height:100vh;
+        }*/
+
+        html{
+            height: 100%;
+        }
+        body {
+            min-height: 100%;
+            display: table
+        }
+        .desr{
+            width: 100%;
+            text-align: center;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            display: table-cell;
+            vertical-align: middle;
+        }
+</style>
+</body>
+</html>
