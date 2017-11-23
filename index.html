@@ -3,41 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>nichosi proof-of-concept</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="nichosi.css">
     <script src="nichosi.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
-<div class="desr">click with alt key</div>
-
-<script>
-
-    $(".desr").nichosi();
-</script>
-
-
-<style>
-        /*    body{
-        width:100vw;
-        height:100vh;
-        }*/
-
-        html{
+    <style>
+        html {
             height: 100%;
         }
+
         body {
             min-height: 100%;
             display: table
         }
-        .desr{
+
+        .desr {
             width: 100%;
             text-align: center;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             display: table-cell;
             vertical-align: middle;
         }
-</style>
+    </style>
+    <div class="desr">alt+click me</div>
+    <script>
+        $('.desr').nichosi()
+    </script>
 </body>
 </html>
